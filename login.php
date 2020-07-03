@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     try {
         $conexion = new PDO('mysql:host=localhost;dbname=curso_login', 'root', '');
-    } catch (\PDOException $e) {
+    } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
 
