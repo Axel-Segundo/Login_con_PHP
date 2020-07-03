@@ -9,6 +9,11 @@
 	<title>Crea una cuenta</title>
 </head>
 <body>
-	
+	<div class="contenedor">
+		<h1 class="titulo">Registrate</h1>
+		<hr class="border">
+
+		
+	</div>
 </body>
 </html>
